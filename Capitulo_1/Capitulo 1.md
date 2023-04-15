@@ -1,25 +1,30 @@
-<h1>Questões do Capitulo 1. 
+<h1>
+  Questões do Capitulo 1. 
 
-<h2> Questão 1
-<h3>
+  <h2>
+    Questão 1
+	  
+   <h3>
 	
-A. Correto
+     A. Correto
 
-B. Incorreto, a variável deve começar com letra
+     B. Incorreto, a variável deve começar com letra
 
-C. Correto
+     C. Correto
 
-D. Incorreto, a variável deve começar com letra
+     D. Incorreto, a variável deve começar com letra
 
-E. Incorreto, a variável deve começar com letra
+     E. Incorreto, a variável deve começar com letra
 
-F. Incorreto, a variável não pode ter '.'
+     F. Incorreto, a variável não pode ter '.'
 
 
-<h2> Questão 2
+  <h2> 
+    Questão 2
 	
-(Considere essas linhas dentro do .data)
-<h3>
+    (Considere essas linhas dentro do .data)
+	  
+   <h3>
 	
 A. 
 ~~~asm
@@ -47,29 +52,32 @@ F.
 	number   sdword   -396
 ~~~
 	
-<h2> Questão 3
-	<h3>
+  <h2>
+    Questão 3
+	  
+   <h3>
 		
-A. Incorreto, o certo é "mov", não "move"
+     A. Incorreto, o certo é "mov", não "move"
 
-B. Correto
+     B. Correto
 
-C. Correto
+     C. Correto
 
-D. Correto 
+     D. Correto 
 
-E. Incorreto, não é possível mover uma variável para um imediato
+     E. Incorreto, não é possível mover uma variável para um imediato
 
-F. Correto
+     F. Correto
 
-G. Incorrreto, não é permitido essa referência de negativo no registrador, o correto é multiplicar o valor por -1
+     G. Incorrreto, não é permitido essa referência de negativo no registrador, o correto é multiplicar o valor por -1
 
-H. Correto
+     H. Correto
 
 
-<h2>Questão 4
+  <h2>
+    Questão 4
 	
-(Considere essas linhas dentro do .code)
+    (Considere essas linhas dentro do .code)
 <h3>
 	
 A.
@@ -107,8 +115,11 @@ E.
 	mov b,eax
 ~~~	
 	
-<h2>Questão 5
-<h3>
+  <h2>
+    Questão 5
+
+    (Considere essas linhas dentro do .code	  
+   <h3>
 	
 A.
 ~~~asm
