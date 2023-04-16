@@ -6,8 +6,8 @@ scanf 	PROTO arg2:Ptr Byte, inputlist:VARARG
 .data
 in1fmt 	byte "%d",0
 msg1fmt byte 0Ah, "%s", 0
-msg2fmt byte 0Ah,"%s",0
-msg3fmt byte 0Ah, 0Ah, "%s%d", 0Ah,0
+msg2fmt byte "%s",0
+msg3fmt byte 0Ah, "%s%d", 0Ah,0
 msg4fmt byte "%s%d",0
 msg1 	byte "Enter the number of amperes: ",0
 msg2 	byte "Enter the number of omhs: ",0
