@@ -1,8 +1,8 @@
-	.686	
+.686	
 	.model	flat,c
 	.stack  100h
-printf  PROTO	arg1:Ptr Byte, printlist:VARANG
-scanf	PROTO	arg2:Ptr Byte, inputlist:VARANG
+printf  PROTO	arg1:Ptr Byte, printlist:VARARG
+scanf	PROTO	arg2:Ptr Byte, inputlist:VARARG
 	.data
 in1fmt  byte	"%d",0
 msg1fmt	byte	0Ah,"%s",0
