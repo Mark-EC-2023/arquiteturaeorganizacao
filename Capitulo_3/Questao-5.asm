@@ -13,7 +13,7 @@ number  sdword	?
 
 	.code
 main 	proc
-	INVOKE printf, ADDR msg1fmt, ADDRmsg1
+	INVOKE printf, ADDR msg1fmt, ADDR msg1
 	INVOKE scanf, ADDR in1fmt, ADDR number
 	mov eax,number
 	mov ebx,3
