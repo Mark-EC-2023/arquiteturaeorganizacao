@@ -106,7 +106,7 @@ D.
  
 ~~~asm
 mov eax,s
-neq eax
+neg eax
 mov r,eax
 mov eax,t     
 add r,eax
@@ -114,6 +114,30 @@ mov r,eax
 inc t        
 ~~~
 
+E. 
+  
+ ~~~asm
+ mov eax,i
+ sub eax,j
+ imul k
+ imul n
+ mov m,eax    
+ ~~~
+
+F. 
+     
+~~~asm
+mov eax,c
+cdq
+idiv d
+imul e
+mov ebx,eax
+mov eax,a
+sub eax,b
+add eax,ebx
+mov q,eax     
+~~~     
+     
   <h2>
     Questão 4
     
@@ -129,3 +153,41 @@ dec i
 B.
 
 ~~~asm
+inc k
+mov eax,k
+sub eax,m
+mov j,eax
+~~~  
+     
+C.
+     
+~~~asm
+mov eax,x
+add eax,y
+neg eax
+mov z,eax         
+~~~
+
+D.
+   
+~~~asm    
+inc b
+mov eax,b
+add eax,c
+mov a,eax     
+inc c 
+~~~     
+     
+E.
+  
+~~~asm
+E. x = -y + z--;      
+mov eax,y
+neg eax
+add eax,z
+mov x,eax
+dec z       
+~~~ 
+
+ 
+    
