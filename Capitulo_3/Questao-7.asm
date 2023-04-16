@@ -10,7 +10,7 @@ msg2fmt byte    0Ah,"%s%d",0Ah,0
 msg1	byte	"Enter the degrees in Fahrenheit: ",0
 msg2	byte	"The degrees in Celsius is: ",0
 f	sdword  ?
-c	sdword	?
+cel	sdword	?
 	.code
 main	proc
 	INVOKE printf, ADDR msg1fmt, ADDR msg1
@@ -22,8 +22,8 @@ main	proc
 	mov ebx,9
 	cdq
 	idiv ebx
-	mov c,eax
-	INVOKE printf, ADDR msg2fmt, ADDR msg2, c
+	mov cel,eax
+	INVOKE printf, ADDR msg2fmt, ADDR msg2, cel
 	ret
 main	endp
 	end	 
