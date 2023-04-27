@@ -3,11 +3,13 @@
   
   <h2> 
     Questão 1
-    
+
+> Correção: 0,5
+   
    <h3>
      
      A. Incorreto, não precisa desse 1.
-     
+
      B. Correto.
      
      C. Incorreto, essa operação não permite memória com memória.
@@ -20,7 +22,9 @@
      
   <h2>
     Questão 2
-    
+
+> Correção: 0,4
+
    <h3>
      
 A.
@@ -48,7 +52,9 @@ cdq
 idiv ebx
 mov answer,eax           
 ~~~
-     
+
+> Correção: Não precisa da última instrução.
+    
 D.
 ~~~asm
 mov difference,4
@@ -60,7 +66,9 @@ mov difference,eax
      
   <h2>
     Questão 3
-    
+
+> Correção: 0,4
+
    <h3> 
      
 A.
@@ -77,7 +85,9 @@ mov x,ecx
 ~~~
      
 B.
-    
+
+> Correção: não entendi o propósito das instruções _mov a, eax_. 
+
 ~~~asm
 mov eax,c
 mov ebx,3
@@ -104,6 +114,8 @@ mov total,eax
      
 D.
  
+> Correção: Se você faz _add r, eax_, o valor de _r_ já é atualizado. Ao fazer _mov r, eax_, o valor que estava correto, torna-se errado. 
+
 ~~~asm
 mov eax,s
 neg eax
@@ -140,7 +152,9 @@ mov q,eax
      
   <h2>
     Questão 4
-    
+
+> Correção: 0,4  
+   
    <h3>
      
 A.
@@ -169,6 +183,8 @@ mov z,eax
 ~~~
 
 D.
+
+> Correção: cadê a subtração?
    
 ~~~asm    
 inc b

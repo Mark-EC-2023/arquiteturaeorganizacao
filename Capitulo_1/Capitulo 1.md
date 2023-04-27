@@ -1,9 +1,13 @@
 <h1>
-  Questões do Capitulo 1. 
+  Questões do Capitulo 1.
+
+> Correção: 1,9
 
   <h2>
     Questão 1
 	  
+> Correção: 0,4
+
    <h3>
 	
      A. Correto
@@ -21,7 +25,9 @@
 
   <h2> 
     Questão 2
-	
+
+> Correção: 0,4
+
     (Considere essas linhas dentro do .data)
 	  
    <h3>
@@ -54,10 +60,14 @@ F.
 	
   <h2>
     Questão 3
-	  
+
+> Correção: 0,3
+
    <h3>
 		
      A. Incorreto, o certo é "mov", não "move"
+
+> Correção: os dois operandos não podem ser localizações na memória.
 
      B. Correto
 
@@ -77,6 +87,8 @@ F.
   <h2>
     Questão 4
 	
+> Correção: 0,4
+
     (Considere essas linhas dentro do .code)
 <h3>
 	
@@ -117,6 +129,8 @@ E.
 	
   <h2>
     Questão 5
+
+> Correção: 0,4
 
     (Considere essas linhas dentro do .code	  
    <h3>
