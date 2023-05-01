@@ -14,8 +14,8 @@ number    sdword    ?
 infmt:    byte      "%d",0
 msg1fmt:  byte      0Ah,"%s",0Ah,0
 msg1:     byte      "Digite o valor de number: ",0
-msg2fmt:  byte      0Ah,"%s%d",0
-msg2:     byte      "O valor final de count eh: "
+msg2fmt:  byte      0Ah,"%s%d",0Ah,0
+msg2:     byte      "O valor final de count eh: ",0
 
           .code
 main      proc
