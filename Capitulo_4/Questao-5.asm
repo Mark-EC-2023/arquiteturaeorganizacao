@@ -2,7 +2,7 @@
 ; De qualquer forma esta sendo indicado
 ; o inicio e o fim da questão
 
-.686
+          .686
           .model    flat,c
           .stack    100h
 printf    PROTO	arg1:Ptr Byte, printlist:VARARG
