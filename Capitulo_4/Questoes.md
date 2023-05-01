@@ -85,3 +85,9 @@ then01:   dec e
 endif01:  nop
      
  ~~~
+
+  <h2>
+    Questões 4 à 6 
+   
+   <h3>
+     Códigos em arquivos separados
