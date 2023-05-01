@@ -1,3 +1,7 @@
+; Fiz o código mais completo para teste
+; De qualquer forma esta sendo indicado
+; o inicio e o fim da questão
+
 .686
           .model    flat,c
           .stack    100h
@@ -22,7 +26,9 @@ ifBase:   cmp number,0
           jl teste
           cmp number,3
           jg teste
-          
+
+; INICIO DA QUESTÃO
+
 if00:     cmp number,0
 then00:   je  if01
 endif00:  nop
@@ -38,6 +44,8 @@ endif02:  nop
 if03:     cmp count,3
 then03:   sub count,2
 endif03:  jmp teste
+
+; FIM DA QUESTÃO        
 
 teste:    nop
           INVOKE printf, ADDR msg2fmt, ADDR msg2, ADDR count
