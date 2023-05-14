@@ -1,4 +1,8 @@
-        .686
+; Fiz no ponto de teste
+; Mas tem o inicio e fim da questao indicado
+       
+       
+       .686
         .model   flat,c
         .stack   100h
 printf  PROTO	arg1:Ptr Byte, printlist:VARARG
@@ -32,6 +36,9 @@ main    proc
         INVOKE printf, ADDR msgfmt, ADDR msgd
         INVOKE scanf, ADDR infmt, ADDR d
 
+
+        ; INICIO DA QUESTAO
+        
         .if a > b ;if(a)
           dec a
         .else
@@ -51,6 +58,8 @@ main    proc
                   .endif   ;endif(c)
                .endif ;endif(b)
         .endif  ;endif(a)
+        
+        ; FIM DA QUESTAO
         
         INVOKE printf, ADDR msg2ft, ADDR msg2, a,b,c,d
         
