@@ -1,3 +1,4 @@
+;No ponto
 .686
             .model flat, c
             .stack 100h
@@ -25,21 +26,21 @@ main        proc
             INVOKE printf,ADDR msg1fmt,ADDR msg1
             INVOKE scanf, ADDR inpfmt, ADDR voltage 
             
-if1:        mov     eax,voltage
+if01:        mov     eax,voltage
             cmp     eax,110
-            jl      else1
+            jl      else01
             cmp     eax,120
-            jg      else1
+            jg      else01
 then1:      nop
             INVOKE  printf, ADDR msgawfmt,ADDR msga
             jmp     FIM
-else1:      nop
+else01:      nop
             INVOKE  printf, ADDR msgawfmt, ADDR msgw
-if2:        cmp     eax,110
-            jge     else2
+if02:        cmp     eax,110
+            jge     else02
 then2:      INVOKE  printf, ADDR msghlfmt, ADDR msgl
             jmp     FIM
-else2:      nop
+else02:      nop
             INVOKE  printf, ADDR msghlfmt, ADDR msgh
             jmp     FIM
 FIM:        nop
