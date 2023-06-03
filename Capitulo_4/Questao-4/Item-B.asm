@@ -1,5 +1,4 @@
-; O codigo esta adaptado para teste
-; Mas eh indicado o inicio e fim da questao
+; No ponto
 
 .686
             .model flat, c
@@ -22,35 +21,38 @@ main        proc
             ; INICIO DA QUESTAO
             
             mov     eax, bv
-            
-if1:        cmp     av,eax
-            jle     else1
-            jmp     then1
-else1:      nop
-if2:        cmp     eax,cv
-            jl      else2
-            jmp     then2
-else2:      nop         
-if3:        mov     eax, dv
+if01:       cmp     av,eax
+            jle     else01
+            jmp     then01
+else01:  nop
+if02:       cmp     eax,cv
+            jl      else02
+            jmp     then02
+else02:  nop         
+if03:       mov     eax, dv
             cmp     cv,eax
-            jle     else3
-            jmp     then3
-else3:      mov     ebx, 2
+            jle     else03
+            jmp     then03
+else03:   mov     ebx, 2
             mov     eax, dv
             cdq
             idiv    ebx
             mov     dv, eax
-            jmp     test
-then3:      nop
-            add     c, eax
-            jmp     test
-then2:      sub     bv, 2
-            jmp     test
-then1:      dec     av
-            jmp     test
+            jmp     endif03   
+then03:  nop
+            add     cv, eax
+            jmp     endif03
+then02:  sub     bv, 2
+            jmp     endif02
+then01:  dec     av
+            jmp     endif01
             
-            ; FIM DA QUESTAO
-test:       nop            
+            
+endif03:       nop
+endif02:       nop
+endif01:       nop  
+
+; FIM DA QUESTAO
             INVOKE printf, ADDR outfmt, av, bv, cv, dv
             ret
 main        endp
