@@ -34,8 +34,7 @@ add eax,ebx
 mov x,eax
 ```
 D.
-```
---asm
+```asm
 mov ebx, a
 sar ebx,4
 mov eax, b
