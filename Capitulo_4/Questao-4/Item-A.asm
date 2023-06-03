@@ -1,6 +1,4 @@
-; O codigo esta adaptado para teste
-; Mas eh indicado o inicio e fim da questao
-
+            ;Código no ponto
 .686
             .model flat, c
             .stack 100h
@@ -32,7 +30,7 @@ main        proc
             idiv    ebx
             mov     dv, eax
             .else
-            add     c, eax
+            add     cv, eax
             .endif
             .else
             sub     bv, 2
