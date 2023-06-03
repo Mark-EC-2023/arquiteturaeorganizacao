@@ -10,8 +10,7 @@
 * I. Incorreto, Shift não é uma instrução, tem que usar shl ou shr
 # Questão 2
 A.
-```
---asm
+```asm
 mov eax, total
 sar eax, 5 ; divide by 32
 sub num,eax ; sub eax from num
@@ -19,16 +18,14 @@ mov eax, num
 mov answer, eax
 ```
 B.
-```
---asm
+```asm
 mov eax,amount
 add eax,number
 sal eax,2 
 mov result,eax 
 ```
 C.
-```
---asm
+```asm
 mov eax, y
 sal eax,3 
 mov ebx, z
