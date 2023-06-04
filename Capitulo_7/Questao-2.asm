@@ -1,7 +1,7 @@
 .686
 .model flat, c
 .stack 100h
-
+;Questao 2
 scanf PROTO arg2:Ptr Byte, inputlist:VARARG
 printf PROTO arg1:Ptr Byte, printlist:VARARG
 
