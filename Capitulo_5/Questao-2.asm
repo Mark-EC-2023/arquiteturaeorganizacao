@@ -7,7 +7,7 @@ scanf     PROTO	arg2:Ptr Byte, inputlist:VARARG
 ans     sdword    ?
 x       sdword    ?
 y       sdword    ?  
-
+i       sdword    ?  
 infmt    byte      "%d%d%d",0
 msg1fmt  byte      0Ah,"%s",0Ah,0
 msg1     byte      "Digite o valor de x,y,ans: ",0
