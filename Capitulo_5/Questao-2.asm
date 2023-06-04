@@ -8,11 +8,11 @@ ans     sdword    ?
 x       sdword    ?
 y       sdword    ?  
 
-infmt:    byte      "%d%d%d",0
-msg1fmt:  byte      0Ah,"%s",0Ah,0
-msg1:     byte      "Digite o valor de x,y,ans: ",0
-msg2fmt:  byte      0Ah,"%s%d%d%d",0Ah,0
-msg2:     byte      "O valor final de x,y,ans eh : ",0
+infmt    byte      "%d%d%d",0
+msg1fmt  byte      0Ah,"%s",0Ah,0
+msg1     byte      "Digite o valor de x,y,ans: ",0
+msg2fmt  byte      0Ah,"%s%d%d%d",0Ah,0
+msg2     byte      "O valor final de x,y,ans eh : ",0
 
           .code
 main      proc
