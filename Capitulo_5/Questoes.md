@@ -13,20 +13,7 @@
     
       E. Correto , mas não tem condição para parar o loop.
       
-  <h2>
-    Questão 2
-    <h3>
-      
-~~~asm
-mov i,1
-while:    cmp i,3
-          jg endw
-          ;body of loop
-          inc i
-          jmp while
-endw:     nop      
-~~~
-      
+ 
   <h2>
     Questão 3
     <h3>
