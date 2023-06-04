@@ -11,6 +11,7 @@ msg2fmt byte 0Ah,"%s%d",0Ah,0
 msg2    byte "O valor final eh: ",0
 n       sdword  ?
 var     sdword ?
+i	sdword ?
         .code
         main	proc
 	INVOKE printf, ADDR msg1fmt, ADDR msg1
@@ -28,11 +29,14 @@ else01: nop
 	
 	
 	mov eax,var
-	imul ecx
+	mov ecx,i
+	imul i
 	mov var,eax
 	inc ecx
+	mov i,ecx
+	
         
-        .until  ecx <= edx
+        .until  ecx > n
         
 	mov eax,var
 	
