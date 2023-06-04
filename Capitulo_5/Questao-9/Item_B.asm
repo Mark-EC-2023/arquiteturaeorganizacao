@@ -24,18 +24,13 @@ if0or1: cmp edx,1
 	jmp cs01
 else01: nop       
 	mov ecx,2
-	mov var,1
+	mov eax,1
         .repeat
-	
-	
-	mov eax,var
-	mov ecx,i
-	imul i
-	mov var,eax
-	inc ecx
 	mov i,ecx
-	
-        
+	imul i
+	cmp ecx,n
+	je fim
+        inc ecx
         .until  ecx > n
         
 	mov eax,var
