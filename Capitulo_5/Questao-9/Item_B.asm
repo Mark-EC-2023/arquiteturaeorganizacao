@@ -21,7 +21,7 @@ var     sdword ?
 if0or1: cmp edx,1
 	jle cs01
         
-	mov ecx,1
+	mov ecx,0
 	mov var,1
         .repeat
 	
