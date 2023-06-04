@@ -32,7 +32,7 @@ else01: nop
 	mov var,eax
 	inc ecx
         
-        .until  ecx > edx
+        .until  ecx <= edx
         
 	mov eax,var
 	
