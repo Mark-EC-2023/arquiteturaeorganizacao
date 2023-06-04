@@ -1,7 +1,7 @@
 	      .686
 	      .model 	flat,c
 	      .stack 	100h
-printf	PROTO 	arg1:Ptr Byte, printlist:VARARG
+printf	  PROTO arg1:Ptr Byte, printlist:VARARG
 scanf	  PROTO	arg2:Ptr Byte, inputlist:VARARG
 	      .data
 infmt   byte "%d",0 
@@ -21,11 +21,15 @@ var     sdword ?
 if0or1: jle cs01
         mov ecx,n
         mov eax,1
+	
         .repeat
 	
-        mov eax,var 
+         
         imul ecx
-	mov var,eax
+	
+	.if ecx == 2
+	jmp fim
+	.endif 
         
         
         .untilcxz
@@ -36,11 +40,11 @@ cs01:   mov var,1
         jmp fim
         
         
-fim:    nop
+fim:    mov var,eax
         INVOKE printf, ADDR msg2fmt, ADDR msg2,var
         
         
         
-        ret
+          ret
 main	  endp
-	      end	
+	  end	
