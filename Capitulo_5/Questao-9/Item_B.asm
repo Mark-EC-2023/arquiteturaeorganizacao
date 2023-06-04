@@ -30,8 +30,8 @@ if0or1: jle cs01
         inc ecx
         mov ebx,eax
 	
-        .until edx >= ecx
-        
+        .until edx < ecx
+        mov eax,ebx
         jmp fim
         
 cs01:   mov eax,1
