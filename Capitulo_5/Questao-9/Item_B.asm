@@ -15,12 +15,13 @@ var     sdword ?
         main	proc
 	INVOKE printf, ADDR msg1fmt, ADDR msg1
 	INVOKE scanf, ADDR infmt, ADDR n
-        mov edx,n
-        ; testar se é 0 ou 1
-        cmp edx,1
-if0or1: jle cs01
-        mov ecx,1
         
+	mov edx,n
+        ; testar se é 0 ou 1
+if0or1: cmp edx,1
+	jle cs01
+        
+	mov ecx,1
 	mov var,1
         .repeat
 	
@@ -29,7 +30,7 @@ if0or1: jle cs01
 	mov var,eax
 	inc ecx
         
-        .until  ecx > 0
+        .until  ecx > edx
         
 	mov eax,ebx
         jmp fim
