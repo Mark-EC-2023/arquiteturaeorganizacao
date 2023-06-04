@@ -11,7 +11,7 @@ antant sdword ?
 ant   sdword ?
 temp  sdword ?
 msgfmt byte "%s", 0Ah, 0
-msg1 byte "valor de n: ", 0
+msg1 byte "n value: ", 0
 msgfmt2 byte "%s%d", 0Ah, 0
 msginput byte "%d", 0
 
@@ -33,7 +33,6 @@ main proc
      INVOKE printf, ADDR msgfmt2, ADDR msg1, n
      ret
 main endp
-
 
 fibonnaci proc
         .if(ebx==0)
