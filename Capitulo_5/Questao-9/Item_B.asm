@@ -19,19 +19,19 @@ var     sdword ?
         ; testar se é 0 ou 1
         cmp edx,1
 if0or1: jle cs01
-        mov ecx,1
-        mov eax,1
-	
+        mov ecx,n
+        
+	mov var,1
         .repeat
 	
-          
-        mov eax,ebx
-        imul ecx
-        inc ecx
-        mov ebx,eax
-	
-        .until edx < ecx
-        mov eax,ebx
+	mov eax,var
+	imul ecx
+	mov var,eax
+	dec ecx
+        
+        .until  ecx <= 0
+        
+	mov eax,ebx
         jmp fim
         
 cs01:   mov eax,1
