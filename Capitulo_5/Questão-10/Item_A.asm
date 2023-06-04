@@ -21,7 +21,7 @@ var     sdword ?
         ; testar se é 0 ou 1
         cmp edx,1
 if0or1: jle cs01
-        mov ecx,2 ; contador
+        mov ecx,1 ; contador
 	mov eax,0 ; aux1 , comeca com fib de 0
         mov ebx,1 ; aux2 , comeca com fib de 1
 	mov edx,0 ; booleano 
