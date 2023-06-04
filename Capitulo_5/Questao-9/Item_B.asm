@@ -19,8 +19,9 @@ var     sdword ?
 	mov edx,n
         ; testar se é 0 ou 1
 if0or1: cmp edx,1
-	jle cs01
-        
+	jg else01
+	jmp cs01
+else01: nop       
 	mov ecx,1
 	mov var,1
         .repeat
@@ -34,9 +35,11 @@ if0or1: cmp edx,1
         .until  ecx > edx
         
 	mov eax,var
+	
         jmp fim
         
 cs01:   mov eax,1
+
         jmp fim
         
         
