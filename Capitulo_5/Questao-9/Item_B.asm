@@ -25,10 +25,11 @@ if0or1: cmp edx,1
 	mov var,1
         .repeat
 	
+	inc ecx
 	mov eax,var
 	imul ecx
 	mov var,eax
-	inc ecx
+	
         
         .until  ecx > edx
         
