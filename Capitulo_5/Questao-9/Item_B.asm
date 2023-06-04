@@ -32,7 +32,7 @@ if0or1: cmp edx,1
         
         .until  ecx > edx
         
-	mov eax,ebx
+	mov eax,var
         jmp fim
         
 cs01:   mov eax,1
