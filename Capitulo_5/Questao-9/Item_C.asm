@@ -22,20 +22,21 @@ if0or1: jle cs01
         mov ecx,n
         mov eax,1
         .repeat
-          
-        inc ecx
+	
+        mov eax,var 
         imul ecx
+	mov var,eax
         
         
         .untilcxz
         
         jmp fim
         
-cs01:   mov eax,1
+cs01:   mov var,1
         jmp fim
         
         
-fim:    mov var,eax
+fim:    nop
         INVOKE printf, ADDR msg2fmt, ADDR msg2,var
         
         
