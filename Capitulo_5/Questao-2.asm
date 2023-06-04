@@ -34,4 +34,8 @@ endif02:  nop
           mov i,ecx ; store ecx in i
 endif01:  nop
 
-INVOKE printf, ADDR msg2fmt,ADDR msg2,
+          INVOKE printf, ADDR msg2fmt,ADDR msg2, x,y,ans
+
+          ret       
+main    endp 
+end	
