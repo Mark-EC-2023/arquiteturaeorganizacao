@@ -22,7 +22,7 @@ if0or1: cmp edx,1
 	jg else01
 	jmp cs01
 else01: nop       
-	mov ecx,1
+	mov ecx,2
 	mov var,1
         .repeat
 	
