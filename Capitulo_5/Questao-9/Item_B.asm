@@ -21,22 +21,24 @@ var     sdword ?
 if0or1: jle cs01
         mov ecx,1
         mov eax,1
+	
         .repeat
 	
-        mov eax,var  
-        inc ecx
+          
+        mov eax,ebx
         imul ecx
-        mov var,eax
-        
+        inc ecx
+        mov ebx,eax
+	
         .until edx > ecx
         
         jmp fim
         
-cs01:   mov var,1
+cs01:   mov eax,1
         jmp fim
         
         
-fim:    nop
+fim:    mov var,eax
         INVOKE printf, ADDR msg2fmt, ADDR msg2,var
         
         ret
