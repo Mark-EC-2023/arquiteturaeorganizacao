@@ -4,11 +4,11 @@
 printf	PROTO 	arg1:Ptr Byte, printlist:VARARG
 scanf	  PROTO	arg2:Ptr Byte, inputlist:VARARG
 	      .data
-infmt   "%d",0 
-msg1fmt 0Ah,"%s",0Ah,0
-msg1    "Digite o valor de n:",0
-msg2fmt 0Ah,"%s%d",0Ah,0
-msg2    "O valor final eh: ",0
+infmt   byte "%d",0 
+msg1fmt byte 0Ah,"%s",0Ah,0
+msg1    byte "Digite o valor de n:",0
+msg2fmt byte 0Ah,"%s%d",0Ah,0
+msg2    byte "O valor final eh: ",0
 n       sdword  ?
 var     sdword ?
         .code
