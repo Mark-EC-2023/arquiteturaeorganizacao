@@ -1,3 +1,4 @@
+; Correção: 0,2. Se eu digitar 150, avisa que a voltagem está baixa. Você salta para else01 não importa o que aconteça.
 ;No ponto
 .686
             .model flat, c

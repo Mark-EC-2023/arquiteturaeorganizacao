@@ -1,3 +1,4 @@
+; Correção: 0,3
             ;Código no ponto
 .686
             .model flat, c

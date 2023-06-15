@@ -3,7 +3,9 @@
   
   <h2>
     Questão 1
-    
+
+  > Correção: 0,2. O item D está incorreto.
+   
    <h3>
       
      A. Incorreto , o operador lógico é '==', e não '='.
@@ -24,6 +26,8 @@
     Questão 3
    
    <h3>
+
+> Correção: 0,3
       
 A. 
 ~~~asm

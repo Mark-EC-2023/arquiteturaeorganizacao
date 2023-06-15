@@ -1,3 +1,4 @@
+; Correção: 0,1. Por que você compara count com 1???
 ; Fiz o código mais completo para teste
 ; De qualquer forma esta sendo indicado
 ; o inicio e o fim da questão

@@ -1,3 +1,5 @@
+; Correção: 0,1. O programa não monta. Não podemos usar em diretivas duas variáveis de memória.
+
 ; Fiz no ponto de teste
 ; Mas tem o inicio e fim da questao indicado
        
