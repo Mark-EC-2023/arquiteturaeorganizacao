@@ -29,4 +29,29 @@
     
     E. 200
     
-      
+    F.
+    
+    G.
+    
+<h2>
+  Questão 3
+  <h3>
+    A.
+    
+~~~asm
+ mov num+0,1    
+~~~
+    
+    B.
+~~~asm
+    mov eax, x+4
+    mov esi, offset x+8
+    add eax, [esi]   
+~~~
+    
+    C. 
+~~~asm
+   mov eax,num[ebx]
+   mov num+4[ebx],eax 
+
+~~~
