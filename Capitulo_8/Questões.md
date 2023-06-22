@@ -21,17 +21,19 @@
   <h3>
     A. 5
     
-    B. 
+    B. 200
     
     C. 200
     
-    D.
+    D. 204
     
     E. 200
     
-    F.
+    F. 5
     
-    G.
+    G. 12
+    
+    H. 14 
     
 <h2>
   Questão 3
@@ -53,5 +55,7 @@
 ~~~asm
    mov eax,num[ebx]
    mov num+4[ebx],eax 
-
+~~~
+  
+    D.
 ~~~
