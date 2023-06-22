@@ -2,6 +2,9 @@
   Questoẽs do Capitulo 5
   <h2>
     Questão 1
+
+> Correção: 0,0. A diretiva while precisa começar com um ponto. Não existe a diretiva .do.
+
     <h3>
       A. Incorreto, não existe a instrução .for em masm.
       
@@ -16,6 +19,9 @@
  
   <h2>
     Questão 3
+
+> Correção: 0,1
+  
     <h3>
       A. Três vezes.
       
@@ -26,6 +32,8 @@
   <h2>
     Questão 4
     <h3>
+
+> Correção: 0,1
       
 ~~~asm
             mov ans,0  
@@ -47,6 +55,8 @@ endif01:    nop
   <h2>
     Questão 5
     <h3>
+
+> Correção: 0,1
 
       A.
       

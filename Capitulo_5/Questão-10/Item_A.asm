@@ -1,3 +1,4 @@
+; Correção: 0,0. Submeteu sem sequer tentar montar. Não monta. 
 	      .686
 	      .model 	flat,c
 	      .stack 	100h
