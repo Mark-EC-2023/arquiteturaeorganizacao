@@ -1,4 +1,7 @@
 # Questão 1
+
+> Correção: 0,5
+
 * A. Correto
 * B. Incorreto,
 * C. Incorreto: Girar não é uma instrução, deve-se usar ROL ou ROR.
@@ -8,7 +11,11 @@
 * G. Correto
 * H. Incorreto, LOL não é uma instrução, tem que usar ROL
 * I. Incorreto, Shift não é uma instrução, tem que usar shl ou shr
+
 # Questão 2
+
+> Correção: 0,5
+
 A.
 ```asm
 mov eax, total
