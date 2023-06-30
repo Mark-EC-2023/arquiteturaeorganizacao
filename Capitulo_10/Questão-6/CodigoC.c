@@ -3,7 +3,7 @@
 
 int main(){
 
-  int x,y;
+  float x,y;
   scanf("%f%f",&x,&y);
   if(x > y){
     printf("\n%s\n", "x is greater than y");
