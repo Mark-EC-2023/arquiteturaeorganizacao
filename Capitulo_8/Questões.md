@@ -47,19 +47,22 @@
     
     B.
 ~~~asm
-    mov eax, x+4
-    mov esi, offset x+8
-    add eax, [esi]   
+ mov eax, x+8
+ mov x+4,eax
+   
 ~~~
     
     C. 
 ~~~asm
-   mov eax,num[ebx]
-   mov num+4[ebx],eax 
+ mov ebx,i
+ mov eax,y[ebx]
+ mov y[ebx+4],eax 
 ~~~
   
     D.
 ~~~asm
-    
-    
+  mov ebx,i
+  mov ecx,j  
+  mov eax,z[ecx]
+  mov z[ebx],eax  
 ~~~
