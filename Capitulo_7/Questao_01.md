@@ -1,4 +1,7 @@
 # Questão 1
+
+> Correção: 0,1
+
 * Item A)
   ```
   Incorreto, pois RET é o correto e não RETURN;
