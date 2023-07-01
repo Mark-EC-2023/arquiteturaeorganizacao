@@ -67,3 +67,24 @@
   mov eax,z[ecx]
   mov z[ebx],eax  
 ~~~
+
+<h2>
+
+  Questão 4
+
+  <h3>
+
+    A. 5
+
+    B. 20
+
+    C. 10
+
+    D. 40
+
+    E. 3
+
+    F. 6
+    
+  </h3>
+</h2>
