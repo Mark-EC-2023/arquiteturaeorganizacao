@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int Array1[20],Array2[20];
+    int Array1[20] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+    int Array2[20];
+
     // Guardando os inteiros de 1 a 20 no array1 
-    for(int i=0;i<20;i++){
-        Array1[i] = i+1;
-    }
-    // Copiando os valores do Array1 para o Array2
     for(int i=0;i<20;i++){
         Array2[i] = Array1[i];
     }
