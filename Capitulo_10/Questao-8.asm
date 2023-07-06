@@ -1,3 +1,4 @@
+; testei
             .686
             .model flat,c
             .stack 100h
@@ -41,7 +42,12 @@ dowhile01:  nop
             jbe endw01 ; pule se for menor ou igual
             jmp dowhile01
 endw01:     nop
+            ; inicio 
+            fld sum
+            fadd x
+            fstp sum
+            ; essa parte eh pra tratar o ultimo
             INVOKE printf, ADDR msg1fmt, ADDR msg1,sum
             ret
 main        endp
-end 
+end      
