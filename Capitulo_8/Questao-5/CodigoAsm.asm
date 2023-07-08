@@ -1,3 +1,4 @@
+;Testei
             .686
             .model flat,c
             .stack 100h
@@ -15,6 +16,7 @@ main        proc
             ; Carregando base dos arrays nos registradores
             lea esi,Array1
             lea edi,Array2
+            
             ; iniciando laco de 20 execuções 
             ; para copiar os elementos    
             mov ecx,20
@@ -32,14 +34,19 @@ main        proc
             INVOKE printf, ADDR out1fmt
 
             ;Segundo laco para printar
-            mov ecx,20
-            .repeat
-            mov aux, [esi]
+            ; 
+            mov ecx,0
+            .while ecx < 20
+            mov eax, [esi]
+            mov aux,eax
+            push ecx
             push esi
             INVOKE printf ,ADDR out2fmt, aux
             pop esi
+            pop ecx
             add esi,4
-            .untilcxz
+            inc ecx
+            .endw
 
             INVOKE printf, ADDR out3fmt
 
