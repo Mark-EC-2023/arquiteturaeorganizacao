@@ -1,6 +1,8 @@
 <h2>
   Questão 1
   
+> Correção: 0,5
+
   <h3>
     
     A. Correto.
@@ -19,6 +21,8 @@
 <h2>
   Questão 2
   
+> Correção: 0,5
+
   <h3>
     
     A. 5
@@ -39,6 +43,9 @@
     
 <h2>
   Questão 3
+
+> Correção: 0,2
+
   <h3>
     
     A.
@@ -54,6 +61,7 @@
 ~~~
     
     C. 
+> Correção: não é assim que pegamos o endereço de uma variável.
 ~~~asm
  mov ebx,i
  mov eax,y[ebx]
@@ -61,6 +69,7 @@
 ~~~
   
     D.
+> Correção: não é assim que pegamos o endereço de uma variável.
 ~~~asm
   mov ebx,i
   mov ecx,j  
@@ -71,6 +80,8 @@
 <h2>
 
   Questão 4
+
+> Correção: 0,5
 
   <h3>
 
