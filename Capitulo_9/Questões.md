@@ -1,3 +1,4 @@
+; Não Finalizado
 <h2>
 
   Questão 1
@@ -25,8 +26,8 @@
   <h3>
 
     A. ecx = 2
-       edi = indefinido
-       esi = 103
+       edi = 103
+       esi = indefinido
        al  = "c"
 
     B. ecx = indefinido 
