@@ -42,7 +42,7 @@
     D. ecx = 5
        edi = 105
        esi = 100
-       al  = "d"
+       al  = indefinido
        string2 = "abcyz"
        
     E. ecx = indefinido
