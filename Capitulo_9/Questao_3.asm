@@ -1,3 +1,4 @@
+; Correção: 1,0
 .686 
             .model flat, c 
             .stack 100h 
@@ -12,7 +13,7 @@ msg3fmt     byte "%d",0Ah,0
 msg1        byte "This is a palindrome. ",0 
 msg2        byte "This isn't a palindrome. ",0 
  
-string      byte "1234554321 aaabbbbaaa xyxyxyxyxy 1234567890 portapreta abcdeedcba araraarara cacaushoww testeteste ARARAARARA ", 0 
+string      byte "ARARAARARA ARARAARARA ARARAARARA ARARAARARA ARARAARARA ARARAARARA ARARAARARA ARARAARARA ARARAARARA ARARAARARA ", 0 
  
 w           byte "123456789", 0 
 r           sdword 10 
