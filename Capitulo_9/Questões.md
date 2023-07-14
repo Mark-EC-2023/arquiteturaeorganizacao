@@ -1,4 +1,4 @@
-; Não Finalizado
+
 <h2>
 
   Questão 1
@@ -40,9 +40,9 @@
        esi = 104
        al  = indefinido
        
-    D. ecx = 5
-       edi = 105
-       esi = 100
+    D. ecx = 4
+       edi = 106
+       esi = 101
        al  = indefinido
        string2 = "abcyz"
        
