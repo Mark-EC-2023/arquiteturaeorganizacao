@@ -2,6 +2,9 @@
 <h2>
 
   Questão 1
+
+> Correção: 0,5.
+
   <h3>
     
     A. Incorreto, o nome da instrução é "movsb".
@@ -23,6 +26,8 @@
 
   Questão 2
   
+> Correção: 0,3.
+
   <h3>
 
     A. ecx = 2
@@ -34,6 +39,8 @@
        edi =  indefinido
        esi = 103
        al  = "d"
+
+> Correção: _esi_ é 104.
        
     C. ecx = 1
        edi = 109 
