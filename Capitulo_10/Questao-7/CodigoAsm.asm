@@ -1,3 +1,4 @@
+; Correção: 0,5
 ;Nao sabia a linguagem entao fiz as duas
 ; Testei
             .686
