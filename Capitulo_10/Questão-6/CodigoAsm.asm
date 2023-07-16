@@ -1,3 +1,4 @@
+; Correção: 0,5
 ; Fiz em C e em asm pois não sabia qual era pra ser
 ;Testei
             .686
