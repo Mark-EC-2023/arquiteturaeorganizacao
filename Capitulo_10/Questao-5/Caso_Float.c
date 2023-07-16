@@ -1,3 +1,4 @@
+// Correção: 0,5.
 #include <stdio.h>
 int main() {
 float x,y;
