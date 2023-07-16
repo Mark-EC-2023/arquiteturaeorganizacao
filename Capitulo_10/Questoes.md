@@ -1,6 +1,8 @@
 <h2>
   Questão 1
   
+> Correção: 0,5
+
   <h3>
     
     A. 8
@@ -16,6 +18,8 @@
 <h2>
   Questão 2
   <h3>
+
+> Correção: 0,3
     
 A.
 ~~~asm
@@ -52,6 +56,9 @@ fstp info
 ~~~
 
 D.
+
+> Correção: Aqui, pela ordem de avaliação, o _i_ e _j_ seria multiplicados primeiro. 
+
 ~~~asm
 fld k
 fld m
