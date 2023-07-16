@@ -1,3 +1,4 @@
+; Correção: 0,3. Não sei onde você testou, mas o correto é 0Ah, não Ah0. 
 ; testei
 	.686
         .model 	flat, c
