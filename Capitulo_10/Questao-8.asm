@@ -1,3 +1,4 @@
+; Correção: 0,5
 ; testei
             .686
             .model flat,c
